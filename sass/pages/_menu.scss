@@ -1,0 +1,209 @@
+
+.header_menu
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 4% 0 2% 0;
+
+    .header{
+        margin-left: 20%;
+    }
+}
+
+.arrow
+{
+    margin-left: 5%;
+}
+
+.coverpic
+{
+    margin-bottom: -10%;
+}
+
+.coverpic2
+{
+    margin-bottom: -50%;
+    position: relative;
+    bottom: 50px;
+}
+
+.section_menu
+{
+    border-radius: 30px 30px 0 0;
+    background-color: $background-colorgrey;
+    position: relative;
+    margin-top: -7%;
+}
+
+figure
+{
+    overflow: hidden;
+}
+
+.name_restau
+{
+    display: flex;
+    align-items: flex-end;
+    margin: 0 0 3% 5%;
+    padding-top: 9%;
+
+    h2{
+        font-weight: 500;
+        margin-right: 25%;
+        font-family: "Shrikhand";
+    }
+
+    .fa-heart{
+        font-size: 2em;
+        background-color: $background-colorgrey;
+    }
+}
+
+.heartprogress2
+{    
+    position: absolute;
+    right: 32px;
+    z-index: 1;
+} 
+
+.heartprogress2
+{
+    &:hover{
+        opacity: 0;
+    }
+}
+
+.heartprogress__bar2
+{
+    position: absolute;
+    right: 32px;
+    z-index: 0;
+    color: $color-primary;
+    background-clip: initial;
+    background: -webkit-linear-gradient(207deg, rgba(147,86,220,1) 0%, rgba(255,121,218,1) 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; 
+}
+
+.menu_choice
+{
+    margin: 0 4% 5% 4%;
+
+    h2{
+        width: fit-content;
+        font-weight: 300;
+    }
+
+    span{
+        padding-bottom: 4%;
+        border-style: hidden hidden solid hidden;
+        border-color: $color-tertiary;
+        border-bottom-width: 4px;
+    }
+}
+
+.section1
+{
+    animation: menuview 1000ms;
+    transform-origin: 100% 50%;
+}
+
+.section2
+{
+    animation: menuview 1500ms;
+    transform-origin: 100% 50%;
+}
+
+.section3
+{
+    animation: menuview 2000ms;
+    transform-origin: 100% 50%;
+}
+
+.menu_card
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 7%;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 0px 8px 6px rgba(212,211,211,0.24);
+    overflow: hidden;
+    height: 40px;
+    padding: 15px 0;
+
+    h3{
+        font-size: 1em;
+        width : 270px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+
+    p{
+        font-size: 0.9em;
+    }
+
+    span{
+        border-style: none;
+        font-weight: 500;
+        margin-right: 10px;
+    }
+
+    &:hover{
+        .fa-check-circle{
+             transform: translateX(0px);
+             transform: scaleX(1);
+             transition-duration: 400ms;
+             animation-fill-mode: both;
+             
+         }
+ 
+         .fa-check-circle:before {
+             transform: rotate(360deg);
+             transition-duration: 1000ms;
+              
+         }
+         .text_card{
+             width: 66%;
+         }
+        h3{
+             width: 250px;
+         }
+     } 
+}
+
+.text_card
+{
+    margin-left: 15px;
+    width: 80%;
+
+
+    p{
+        width: 90%;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+}
+
+
+.fa-check-circle
+{
+    display: flex;
+    background-color: #99e2d0;
+    border-radius: 0 20px 20px 0;
+    color: #fff;
+    height: 70px;
+    align-items: center;
+    transform: scaleX(0);
+    transform: translateX(2000px);
+    width: 65px;
+    justify-content: space-around;
+    font-size: 2em;
+    position: relative;
+    top: 15px;
+    width: 65px;
+}

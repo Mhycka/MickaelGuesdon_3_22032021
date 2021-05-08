@@ -1,0 +1,129 @@
+/* -----  Fonctionnement step by step / Page Accueil ----*/
+
+.Howtowork
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+
+    .fas{
+        color:#7E7E7E;
+        margin-right: 5%;
+    }
+}
+
+.Howto h2, .restau h2
+{
+    margin: 12% 0 5% 5%;
+    font-weight: 800;
+}
+
+.circle
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-primary;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    color: white;
+    position: relative;
+}
+
+.card_howto
+{
+    display: flex;
+    align-items: center;
+    background-color: $background-colorgrey;
+    width: 85%;
+    border-radius: 20px;
+    height: 60px;
+    margin-left: -5%;
+    font-weight: 700;
+
+    &:hover{
+        background-color: lighten($color-primary, 35%);
+        .fas{
+            color: $color-primary;
+        }
+    }
+}
+
+.inblock_howto
+{
+    justify-content: space-evenly;
+    margin-left: 15%;
+    width: 100%;
+}
+
+/*----- vignette restaurant page Accueil----*/
+
+figure
+{
+    display: flex;
+    flex-flow: column;
+}
+
+.restau_card
+{
+    margin: 0 5%;
+    border-radius: 20px;
+    margin-bottom: 10%;
+    box-shadow: 0px 0px 8px 6px rgba(212,211,211,0.24);
+
+    img{
+        width: 100%;
+        height: 160px;
+        object-fit: cover;
+        border: none;
+        border-radius: 20px 20px 0 0;
+    }
+}
+
+.new
+{
+    position: absolute;
+    color: #0a8d6d;
+    background-color: $color-tertiary;
+    right: 9%;
+    margin-top: 4%;
+    padding: 2% 3%;
+    font-size: 0.9em;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+figcaption
+{
+    background-color: white;
+    border-radius: 0 0 20px 20px;
+    height: 70px;
+    padding-bottom: 5%;
+}
+
+.banniere 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    h2{
+        width: max-content;
+        margin: 15px 20px 0 15px;
+        font-weight: 600;
+        font-size: 1.3em;
+    }
+
+    P{
+        margin: 5px 0 15px 15px;
+    }
+
+    .fa-heart {
+        font-size: 1.5em;
+        margin-right: 20px;
+    }
+
+}

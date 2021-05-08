@@ -1,0 +1,62 @@
+/*-----loader-------*/
+@keyframes loader
+{
+    0%{
+        opacity: 1;
+    }
+    80%{
+        opacity: 1;
+    }
+    99%{
+        transform: translateY(0);
+    }
+    100%{
+        opacity: 0;
+        display: none;
+        transform: translateY(-1000px);
+    }
+}
+
+@keyframes loadpoint1 
+  {
+    0% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+@keyframes loadpoint3
+{
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0);
+    }
+  }
+
+  @keyframes loadpoint2 
+  {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(24px, 0);
+    }
+  }
+
+/*------Apparition menu --------*/
+@keyframes menuview {
+    0%{
+        transform: scaleX(0) translateX(2000px);
+    }
+    85% {
+        transform: scaleX(.9);
+        opacity: 0.5;
+    }
+    100% {
+        transform: scaleX(1) translateX(0);
+    }
+}

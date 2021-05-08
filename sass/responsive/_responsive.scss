@@ -1,0 +1,664 @@
+/*------format tablette-------*/
+@media (min-width: 576px)
+{
+/*--------------------------------PAGE ACCUEIL--------------------------------*/
+
+/*-------loader-------*/
+    .loadpoint div:nth-child(1)
+        {
+            left: 43%;
+        }
+    .loadpoint div:nth-child(2)
+        {
+            left: 45%;
+        }
+    .loadpoint div:nth-child(3)
+        {
+            left: 50%;
+        }
+    .loadpoint div:nth-child(4)
+        {
+            left: 55%;
+        }
+
+/*-------header------*/
+    .header_logo
+    {
+        margin: 5% 0 4% 0;
+        font-size: 2.5em;
+    }
+    .nav
+    {
+        p{
+            font-size: 1.5em;
+            margin: 5% 2% 5% 0;
+        }
+        .fa-map-marker-alt{
+            font-size: 1.5em;
+            margin: 5% 2% 5% 0;
+        }
+    }
+        
+/*-----Corps------*/
+    .blocsub_header
+    {
+        padding: 3% 0 5% 0;
+    }
+
+    .formsub_header
+    {
+        h2{
+            margin: 2% 8%;
+            font-size: 2em;
+        }
+        p{
+            margin: 2% 7%;
+            font-size: 1.7em;
+            }
+    }
+
+    .btn
+    {
+        height: 70px;
+        font-size: 1.2em;
+        padding: 0.75em 1em 0.8em 1em;
+        margin: 5%;
+    }
+
+    .Howto
+    {
+        h2{
+            margin: 5% 0 5% 5%;
+            font-size: 2.2em;
+        }
+        .circle{
+            width: 50px;
+            height: 50px;
+
+        }
+        .card_howto{
+            border-radius: 35px;
+            height: 100px;
+            margin-left: -3%;
+        }
+        .inblock_howto{
+            margin-left: 10%;
+            font-size: 1.5em;
+        }
+    }
+
+    .restau
+    {
+        margin-top: 5%;
+        padding: 1% 0 4% 0;
+        
+        h2{
+            margin: 9% 0 5% 5%;
+            font-size: 2.2em;
+        }
+    }
+
+    .restau_card
+    {
+        img{
+            height: 200px;
+        }
+        .new{
+            font-size: 1.3em;
+        }
+        h2{
+            margin-left: 50px;
+            margin: 20px 0 0 50px;
+            font-size: 1.7em;
+        }
+        p{
+            font-size: 1.4em;
+            margin: 0 0 0 50px;
+        }
+        .fa-heart{
+            font-size: 2.3em;
+            margin-right: 50px;
+            margin-top: 20px;
+        }
+    }
+
+/*--------footer-------*/
+    footer
+    {
+        h1{
+            font-size: 2em;
+            margin: 0 0 3% 5%;
+        }
+        a{
+            font-size: 1.2em;
+        }
+        .fas{
+            font-size: 1.2em;
+        }
+        .fa-hands-helping{
+            margin-right: 2%;
+        }
+        .fa-utensils{
+            margin-right: 3%;
+        }
+    }
+
+/*--------------------------------PAGE MENU--------------------------------*/
+
+    .header_menu
+    {
+        h1{
+            font-size: 3em;
+        }
+        .header{
+            margin-left: 20%;
+        }
+        .arrow{
+            font-size: 1.3em;
+        }
+    }
+
+    .coverpic2
+    {
+        bottom: 90px;
+    }
+    
+    .menu_card
+    {
+        margin-top: 6%;
+        height: 45px;
+
+        .text_card{
+            margin-left: 25px;
+            h3{
+                width: 370px;
+                font-size: 1.4em;
+            }
+            p{
+                font-size: 1.2em;
+                width: 95%;
+            }
+        }
+
+        span{
+            font-size: 1.2em;
+        }
+
+        .fa-check-circle{
+            height: 75px;
+        } 
+    }
+
+    .btn2
+    {
+        left: 28%;
+        margin-bottom: 12%;
+        font-size: 1.2em;
+    }
+}
+
+
+/*------format decksop-------*/
+@media (min-width: 769px)
+{
+/*--------------------------------PAGE ACCUEIL--------------------------------*/
+
+/*--------loader----------*/
+    .loadpoint div:nth-child(1)
+    {
+        left: 47%;
+    }
+    .loadpoint div:nth-child(2)
+    {
+        left: 48%;
+    }
+    .loadpoint div:nth-child(3)
+    {
+        left: 51%;
+    }
+    .loadpoint div:nth-child(4)
+    {
+        left: 55%;
+    }
+
+/*--------header----------*/
+
+    .header_logo{
+        margin: 2% 0 2% 0;
+    }
+
+/*----------Corps---------*/
+
+    .nav
+    {
+        .fa-map-marker-alt{
+            font-size: 1.3em;
+            margin: 2% 2% 2% 0;
+        }
+        p{
+            margin: 2% 2% 2% 0;
+        }
+    }
+
+    .blocsub_header
+    {
+        padding: 2% 0 2% 0;
+        .btn{
+            margin: 1%;
+            font-size: 1em;
+        }
+
+        .formsub_header{
+            h2{
+                margin: 0% 8%;
+                font-size: 1.8em;
+            }
+            p{
+                margin: 1% 7%;
+                font-size: 1.5em;
+            }
+        }
+    }
+    
+    .Howto
+    {
+        h2{
+            font-size: 2em;
+            margin: 3% 0 3% 5%;
+        }
+        .Howtodesk{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .inblock_howto{
+            margin-left: 13%;
+            font-size: 1.2em;
+        }
+    }
+
+    .Howtowork
+    {
+        margin-bottom: 0%;
+
+        .card_howto{
+            width: 300px;
+            margin-left: -8%;
+        }
+        .fas{
+            margin-right: 3%;
+        }
+    }
+
+    .restau
+    {
+        padding: 1% 0 2% 0;
+        h2{
+            margin: 2% 0 3% 5%;
+            font-size: 2em;
+        }
+        ul{
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+
+    .restau_card
+    {
+        width: 40%;
+        margin-bottom: 5%;
+        .new{
+            right: initial;
+            margin-top: 2%;
+            padding: 1% 2%;
+        }
+        .newr{
+            left: 30%;
+        }
+        .newl{
+            left: 80%;
+        }
+        .banniere{
+            h2{
+                margin: 20px 0 0 50px;
+                font-size: 1.7em;
+            }
+            p{
+                font-size: 1.2em;
+            }
+        }
+        .fa-heart{
+            font-size: 1.8em;
+        }
+    }
+
+/*----------Footer---------*/
+    footer
+    {
+        h1{
+            padding-top: 3%;
+        }
+        .footer_text{
+            padding-bottom: 2%;
+            li{
+                margin-bottom: 1%;
+            }
+        }
+    }
+
+/*----------------------------PAGE MENU-----------------*/
+
+/*----------Header----------*/
+    .header_menu
+    {
+        margin: 3% 0 2% 0;
+        .arrow{
+            font-size: 1.8em;
+        }
+        .header{
+            margin-left: 35%;
+        }
+    }
+
+/*---------Corps-------------*/
+    .coverpic
+    {
+        position: relative;
+        margin-bottom: -25%;
+        bottom: 200px;
+    }
+
+    .coverpic2
+    {
+        position: relative;
+        margin-bottom: -83%;
+        bottom: 900px;
+    }
+
+    .section_menu
+    {
+        .name_restau{
+            padding-top: 3%;
+            h2{
+                font-size: 2.5em;
+            }
+            .fa-heart{
+                font-size: 3em;
+            }
+            .heartprogress2{
+                right: 60px;
+            }
+            .heartprogress__bar2{
+                right: 60px;
+            }
+        }
+    }
+
+    .menu_choice
+    {
+        display: flex;
+        h2{
+            font-size: 2em;
+            width: 10px;
+        }
+        .menu_card{
+            margin-right: 2%;
+        }
+    }
+
+    .btn2{
+        left: 44%;
+        margin-bottom: 9%;
+        font-size: 1.7em;
+        padding: .75em 1.5em;
+    }
+
+/*--------Footer----------*/
+    footer
+    {
+        .footer_text{
+            display: flex;
+            li{
+                width: 400px;
+            }
+        }
+    }
+}
+
+
+
+
+@media (min-width: 770px) and (max-width: 1024px)
+{
+/*--------------------------------PAGE ACCUEIL--------------------------------*/
+
+/*--------loader----------*/
+    .loadpoint div:nth-child(1)
+    {
+        left: 47%;
+    }
+    .loadpoint div:nth-child(2)
+    {
+        left: 48%;
+    }
+    .loadpoint div:nth-child(3)
+    {
+        left: 51%;
+    }
+    .loadpoint div:nth-child(4)
+    {
+        left: 55%;
+    }
+
+/*--------header----------*/
+
+    .header_logo{
+        margin: 2% 0 2% 0;
+    }
+
+/*----------Corps---------*/
+
+    .nav
+    {
+        .fa-map-marker-alt{
+            font-size: 1.3em;
+            margin: 2% 2% 2% 0;
+        }
+        p{
+            margin: 2% 2% 2% 0;
+        }
+    }
+
+    .blocsub_header
+    {
+        padding: 2% 0 2% 0;
+        .btn{
+            margin: 1%;
+            font-size: 1em;
+        }
+
+        .formsub_header{
+            h2{
+                margin: 0% 8%;
+                font-size: 1.8em;
+            }
+            p{
+                margin: 1% 7%;
+                font-size: 1.5em;
+            }
+        }
+    }
+    
+    .Howto
+    {
+        h2{
+            font-size: 2em;
+            margin: 3% 0 3% 5%;
+        }
+        .Howtodesk{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .inblock_howto{
+            margin-left: 13%;
+            font-size: 1.2em;
+        }
+    }
+
+    .Howtowork
+    {
+        margin-bottom: 0%;
+        margin-top: 1%;
+
+        .card_howto{
+            width: 300px;
+            margin-left: -8%;
+        }
+        .fas{
+            margin-right: 3%;
+        }
+    }
+
+    .restau
+    {
+        padding: 1% 0 2% 0;
+        h2{
+            margin: 2% 0 3% 5%;
+            font-size: 2em;
+        }
+        ul{
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+
+    .restau_card
+    {
+        width: 40%;
+        margin-bottom: 5%;
+        .new{
+            right: initial;
+            margin-top: 2%;
+            padding: 1% 2%;
+        }
+        .newr{
+            left: 30%;
+        }
+        .newl{
+            left: 80%;
+        }
+        .banniere{
+            h2{
+                margin: 20px 0 0 50px;
+                font-size: 1.7em;
+            }
+            p{
+                font-size: 1.2em;
+            }
+        }
+        .fa-heart{
+            font-size: 1.8em;
+        }
+    }
+
+/*----------Footer---------*/
+    footer
+    {
+        h1{
+            padding-top: 3%;
+        }
+        .footer_text{
+            padding-bottom: 2%;
+            li{
+                margin-bottom: 1%;
+            }
+        }
+    }
+
+/*----------------------------PAGE MENU-----------------*/
+
+/*----------Header----------*/
+    .header_menu
+    {
+        margin: 3% 0 2% 0;
+        .arrow{
+            font-size: 1.8em;
+        }
+        .header{
+            margin-left: 30%;
+        }
+    }
+
+/*---------Corps-------------*/
+    .coverpic
+    {
+        position: relative;
+        margin-bottom: -25%;
+        bottom: 200px;
+    }
+
+    .coverpic2
+    {
+        position: relative;
+        margin-bottom: -83%;
+        bottom: 100px;
+    }
+
+    .section_menu
+    {
+        .name_restau{
+            padding-top: 3%;
+            h2{
+                font-size: 2.5em;
+            }
+            .fa-heart{
+                font-size: 3em;
+            }
+            .heartprogress2{
+                right: 60px;
+            }
+            .heartprogress__bar2{
+                right: 60px;
+            }
+        }
+    }
+
+    .menu_choice
+    {
+        display: initial;
+        h2{
+            font-size: 2em;
+            margin-left: 4%;
+            width: auto;
+        }
+        .menu_card{
+            margin-right: 2%;
+            width: 90%;
+            margin-left: 4%;
+        }
+        span{
+            padding-bottom: 1%;
+        }
+    }
+
+    .btn2{
+        left: 39%;
+        margin-bottom: 9%;
+        margin-top: 7%;
+        font-size: 1.7em;
+        padding: .75em 1.5em;
+    }
+
+/*--------Footer----------*/
+
+    footer
+    {
+        .footer_text{
+            display: flex;
+            li{
+                width: 400px;
+            }
+        }
+    }
+}
