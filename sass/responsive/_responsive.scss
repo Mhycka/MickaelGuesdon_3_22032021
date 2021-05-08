@@ -364,15 +364,15 @@
     .coverpic
     {
         position: relative;
-        margin-bottom: -25%;
-        bottom: 200px;
+        margin-bottom: -40%;
+        bottom: 500px;
     }
 
     .coverpic2
     {
         position: relative;
-        margin-bottom: -83%;
-        bottom: 900px;
+        margin-bottom: -93%;
+        bottom: 1100px;
     }
 
     .section_menu
@@ -403,6 +403,12 @@
         }
         .menu_card{
             margin-right: 2%;
+            width: 550px;
+        }
+        :hover{
+            h3{
+                width: 340px;
+            }
         }
     }
 
