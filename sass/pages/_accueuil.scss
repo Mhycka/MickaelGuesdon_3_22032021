@@ -75,6 +75,7 @@
 {    
     position: absolute;
     background-color: white;
+    transition: all ease-in-out 1000ms;
 } 
 
 .heartprogress
@@ -90,4 +91,5 @@
     background: -webkit-linear-gradient(207deg, rgba(147,86,220,1) 0%, rgba(255,121,218,1) 100%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    transition: all ease-in-out 1000ms;
 }
